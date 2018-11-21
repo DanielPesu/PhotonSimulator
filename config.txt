@@ -1,0 +1,11 @@
+containment cube length (mm) = 100
+detector cube length (mm) = 20
+
+photon energy (eV) = 1000000
+lower energy limit (eV) = 1000
+
+probability of absorbance = 0.01
+probability of scattering = 0.05
+
+maximum energy loss percentage = 0.2
+minimum energy loss percentage = 0.0
