@@ -14,8 +14,8 @@ To compile the source code and build the program, type
 
 into the command line from the root directory. (the file where you can see src, Includes, makefile, etc. from)
 
-The build will then be compiled, if not, ensure you are in the correct directory, and that you havent fucked up the
-parameters in Includes/constants.h. The default parameters are those given in the assignment.
+The build will then be compiled, if not, ensure you are in the correct directory, and that the parameters in
+Includes/constants.h are default values.
 
 To run the program simply enter into the commandline the run command, ./Photon_Deposition, followed by either a
 -E or -N tag to indicate either an efficient or naive simulation method, followed by the number of photons to simulate.
