@@ -1,6 +1,6 @@
 #ifndef PHOTON_H_
 #define PHOTON_H_
-#include "../Includes/positioning.h"  // for definition of 'coords' struct.
+#include "positioning.h"  // for definition of 'coords' struct.
 
 struct photon {
 	double energy;	// The photon's current energy level in eV
