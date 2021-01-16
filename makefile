@@ -1,6 +1,6 @@
 # TODO: Experiment with commands to make the targets/builds more elegant.
 BUILDDIR = build
-HEADDIR  = Includes
+HEADDIR  = includes
 SRCDIR   = src
 TESTDIR  = test
 
