@@ -17,18 +17,15 @@ into the command line from the root directory. (the file where you can see src, 
 The build will then be compiled, if not, ensure you are in the correct directory, and that the parameters in
 Includes/constants.h are default values.
 
-To run the program simply enter into the commandline the run command, ./Photon_Deposition, followed by either a
--E or -N tag to indicate either an efficient or naive simulation method, followed by the number of photons to simulate.
+To run the program simply enter into the commandline the run command, `./Photon_Deposition`, followed by either a
+`-E` or `-N` tag to indicate either an [E]fficient or [N]aive simulation method, followed by the number of photons to simulate.
 In command line logic, this is
 
 	$ ./Photon_Deposition [-N|-E] <NUMBER_OF_PHOTONS>
 
-At any point, you can type ./Photon_Deposition on its own, or incorrectly (to an extent, you may break it if you're
-being stupid ie. negative photons), to see it's usage.
+At any point, you can type `./Photon_Deposition` on its own to see it's usage.
 
-The simulation will then run the simulation. A progress indicator will indicate how far along it is (although it has
-broken before for really large simulations. In such situations, the simulation is still running, just the progress
-is incorrectly reported). Once it is complete it will report some basic stats.
+When the simulation runs, a progress indicator will be displayed. Once it is complete it some basic stats will be reported.
 
 -----------------------------------------------
   2. ASSUMPTIONS
