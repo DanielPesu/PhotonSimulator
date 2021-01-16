@@ -1,6 +1,6 @@
 #ifndef MATHOPERATIONS_H_
 #define MATHOPERATIONS_H_
-#include "../Includes/positioning.h"
+#include "positioning.h"
 
 // Used to return the pair of solutions to a simultaneous equation.
 struct Pair {
